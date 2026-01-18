@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { addExpense } from "../utils/api";
+import { addExpense } from "../services/api";
 
 const ExpenseForm = ({ fetchExpenses }) => {
   const [title, setTitle] = useState("");
